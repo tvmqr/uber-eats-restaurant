@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Uber Eats — Restaurant</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <header class="header">
+            <div class="header-content">
+                <a href="index.html" class="logo">
+                    <span class="logo-uber">UBER</span>
+                    <span class="logo-eats">EATS</span>
+                </a>
+                <nav class="nav-buttons">
+                    <button class="signin" type="button">Войти</button>
+                    <button class="basket" type="button" aria-label="Корзина"></button>
+                </nav>
+            </div>
+        </header>
+
+        <main class="container">
+            <section class="restaurant-hero">
+                <picture class="hero-image">
+                    <source srcset="css/pictures/hero-desktop.webp" media="(min-width: 992px)">
+                    <source srcset="css/pictures/hero-tablet.webp" media="(min-width: 768px)">
+                    <img src="css/pictures/hero-mobile.webp" alt="Трактир «Пушкин»">
+                </picture>
+                <div class="rest-card">
+                    <h1>Трактир «Пушкин»</h1>
+                    <div class="card-info">
+                        <p class="left-card-info">₽₽₽ • Европейская</p>
+                        <p class="right-card-info">40 - 50 мин</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="filter">
+                <h2 class="visually-hidden">Фильтр меню</h2>
+
+                <button class="filter-btn" type="button">Закуски</button>
+                <button class="filter-btn" type="button">Салаты</button>
+                <button class="filter-btn" type="button">Супы</button>
+                <button class="filter-btn" type="button">Горячие блюда</button>
+                <button class="filter-btn" type="button">Гарниры</button>
+                <button class="filter-btn" type="button">Десерты</button>
+            </section>
+
+            <section class="menu_cards">
+                <h2 class="heading-cards">Закуски</h2>
+                <div class="heading-line"></div>
+
+                <div class="menu-grid">
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <div>
+                                <h3>Сельдь на бородинском хлебе</h3>
+                                <p>С яйцом и огурцом</p>
+                            </div>    
+                            <span>240 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card1.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card1.png" alt="Сельдь на бородинском хлебе">
+                        </picture>
+                    </article>
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <h3>Соленья ассорти</h3>
+                            <span>320 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card2.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card2.png" alt="Соленья ассорти">
+                        </picture>
+                    </article>
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <h3>Грибы маринованные</h3>
+                            <span>300 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card3.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card3.png" alt="Грибы маринованные">
+                        </picture>
+                    </article>
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <h3>Сало домашнее с горчицей</h3>
+                            <span>320 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card4.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card4.png" alt="Сало домашнее с горчицей">
+                        </picture>
+                    </article>
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <h3>Малосольная семга</h3>
+                            <span>390 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card5.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card5.png" alt="Малосольная семга">
+                        </picture>
+                    </article>
+                    <article class="snack" tabindex="0">
+                        <div class="snack-grid">
+                            <h3>Язык говяжий с хреном</h3>
+                            <span>350 ₽</span>
+                        </div>
+                        <picture>
+                            <source srcset="css/pictures/snack_cards_for_tablet/card6.png" media="(min-width: 768px) and (max-width: 991px)">
+                            <img src="css/pictures/snack_cards/card6.png" alt="Язык говяжий с хреном">
+                        </picture>
+                    </article>
+                </div>
+            </section>
+
+            <footer class="footer">
+                <div class="container">
+                    <div class="footer-content">
+                        <div class="logf">
+                            <span class="logo-uber-footer">UBER</span>
+                            <span class="logo-eats-footer">EATS</span>
+                        </div>
+                        <div class="fcolumns">
+                            <div class="footer-col-left">
+                                <select class="language-select" aria-label="Выбор языка">
+                                    <option value="ru">Русский</option>
+                                    <option value="en">English</option>
+                                    <option value="fr">Français</option>
+                                </select>
+                                <span class="hashtag"><span>#</span>UberEats</span>
+                                <div class="social-links">
+                                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+                                        <img src="css/pictures/facebook.svg" alt="Facebook">
+                                    </a>
+                                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" aria-label="Twitter">
+                                        <img src="css/pictures/twitter.svg" alt="Twitter">
+                                    </a>
+                                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
+                                        <img src="css/pictures/instagram.svg" alt="Instagram">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="footer-col-center">
+                                <nav aria-label="Ссылки для партнёров">
+                                    <ul>
+                                        <li><a href="#">Об UberEats</a></li>
+                                        <li><a href="#">Станьте партнёром по доставке</a></li>
+                                        <li><a href="#">Станьте партнёром-рестораном</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <div class="footer-col-right">
+                                <nav aria-label="Ссылки для клиентов">
+                                    <ul>
+                                        <li><a href="#">Все города</a></li>
+                                        <li><a href="#">Цены</a></li>
+                                        <li><a href="#">Помощь</a></li>
+                                        <li><a href="#">FAQs</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="download-links">
+                            <a href="https://apps.apple.com" target="_blank" rel="noopener noreferrer">
+                                <img src="css/pictures/Download_on_the_App_Store_Badge_US-UK_RGB_blk_092917.png" alt="Скачать в App Store">
+                            </a>
+                            <a href="https://play.google.com" target="_blank" rel="noopener noreferrer">
+                                <img src="css/pictures/en_badge_web_generic-cf6dad406f.png" alt="Скачать в Google Play">
+                            </a>
+                        </div>
+                        <div class="footer-legal">
+                            <p>© 2017 Uber Technologies Inc.</p>
+                            <a href="#">Обработка персональных данных</a>
+                            <a href="#">Пользовательское соглашение</a>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+            <div class="back-to-top-wrapper">
+                <a href="#" aria-label="Наверх">↑</a>
+            </div>
+        </main>
+
+
+
+
+
+
+
+
+    </body>
