@@ -14,12 +14,14 @@ body {
 }
 
 .container {
+    max-width: 70.25rem;
     margin: 0 auto;
 }
 
 
 
 /* ===== ACCESSIBILITY ===== */
+
 *:focus-visible {
   outline: 2px solid #57AD56;
   outline-offset: 2px;
@@ -43,6 +45,8 @@ body {
 .header-content {
     height: 100%;
     padding: 0 0.4375rem;
+    max-width: 70.25rem;
+    margin: 0 auto;
     /* flexbox */
     display: flex;
     justify-content: space-between;
@@ -123,7 +127,7 @@ body {
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: 1fr;
     align-items: start;
-    position: relative
+    position: relative;
 }
 
 /* image */
@@ -341,6 +345,8 @@ body {
 .footer-content {
     padding-top: 3.125rem;
     margin: 0 0.4375rem;
+    max-width: 70.25rem;
+    margin: 0 auto;
 }
 
 /* futers logo */
