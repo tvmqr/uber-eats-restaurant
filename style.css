@@ -149,7 +149,7 @@ body {
 
 .rest-card {
     position: absolute;
-    top: 8.125rem;
+    bottom: -3rem;
     grid-column: 1 / 13;
     grid-row: 1;
     z-index: 2;
@@ -511,9 +511,10 @@ html {
 
     .rest-card {
         grid-column: 1 / 8;
-        top: 5rem;
         height: 12.75rem;
         padding: 0 2.5rem;
+        top: 50%;
+        transform: translateY(-50%);
     }
 
     .rest-card h1 {
@@ -641,7 +642,6 @@ html {
 
     .rest-card {
         grid-column: 1 / 6;
-        top: 6.25rem;
         margin-left: 3.75rem;
         padding: 0 1.5rem 0 1.875rem;
     }
